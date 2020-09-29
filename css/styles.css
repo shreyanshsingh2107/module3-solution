@@ -1,0 +1,78 @@
+body{
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 30px;
+}
+#header-nav{
+    background-color: crimson;
+    border-radius: 0;
+    border: 0;
+    
+   
+}
+.navbar-header{
+    padding-top: 20px;
+}
+
+.navbar-brand{
+    padding-top:4px;
+    
+}
+.navbar-brand h1{
+    color: #000;
+    font-weight: bold;
+    margin-top: 5px;
+}
+#nav-list li a{
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 1px;
+}
+#nav-list{
+    margin-top: 10px;
+    background-color: white;
+    
+}
+#nav-list li{
+    background-color: chartreuse;
+}
+#nav-list li:hover{
+    background: red;
+}
+#main-content{
+    color: white;
+    float:left;
+}
+#pizza,#chicken,#sushi{
+    border: 2px solid white;
+    margin: 30px 10px;
+    
+    background-color:rgb(29, 6, 51) ;
+}   
+#pizza:hover,#chicken:hover,#sushi:hover{
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+}
+h1{
+    text-align: center;
+    
+}
+/* #pizza{
+    margin-left: 60px;
+} */
+@media(min-width:992px){
+    #pizza,#chicken,#sushi{
+        width: 30%;
+    } 
+}
+@media(min-width:768px) and (max-width:992px){
+    #pizza,#chicken{
+        margin-left: 40%;
+    }
+    #sushi{
+        margin-left: 50px;
+    }
+}
